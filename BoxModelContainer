@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Container</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <p>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+</body>
+</html>
+
+
+
+p{
+    width: 200px;
+    padding: 20px;
+    margin: 30px auto;
+    border: 5px solid black;
+    border-radius: 12px;
+    background: rgb(64, 224, 208);
+    box-sizing: border-box;
+}
