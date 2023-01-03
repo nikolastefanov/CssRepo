@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery - Inline Block</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+    <main class="page-wrapper">
+         <ul class="gallery">
+             <li>
+                <img src="images/picture1.jpg" alt="">
+             </li>
+             <li>
+                <img src="images/picture2.jpg" alt="">
+             </li>
+             <li>
+                <img src="images/picture3.jpg" alt="">
+             </li>
+             <li>
+             <img src="images/picture4.jpg" alt="">
+             </li>
+             <li>
+             <img src="images/picture5.jpg" alt="">
+             </li>
+             <li>
+             <img src="images/picture6.jpg" alt="">
+             </li>
+             <li>
+             <img src="images/picture1.jpg" alt="">
+             </li>
+             <li>
+             <img src="images/picture2.jpg" alt="">
+             </li>
+             <li>
+                <img src="images/picture3.jpg" alt="">
+             </li>
+             <li>
+                <img src="images/picture4.jpg" alt="">
+             </li>
+             <li>
+             <img src="images/picture5.jpg" alt="">
+             </li>
+             <li>
+             <img src="images/picture6.jpg" alt="">           
+             </li>        
+         </ul>
+
+    </main>
+    
+</body>
+</html>
+
+
+body{
+    background: #EEEEEE;
+}
+
+.page-wrapper{
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+li{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 16px;
+    padding: 16px;
+    background: rgb(151, 151, 151);
+    border-width: 0.4rem;
+    border-style: solid;
+    border-color: black;
+    max-width: 300px;
+}
+
+li img{
+     width: 100%;
+}
