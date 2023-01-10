@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        HEADER
+    </header>
+
+    <main>
+        MAIN
+    </main>
+
+    <aside>
+        ASIDE
+    </aside>
+
+    <footer>
+       FOOTER
+    </footer>
+    
+</body>
+</html>
+
+
+body{
+    display: flex;
+    font-family: Helvetica, sans-serif;
+    background: #EEEEEE;
+    padding: 40px 90px;
+    flex-wrap: wrap;
+}
+
+header,
+main,
+aside,
+footer{
+    background: white;
+    padding: 18px 22px;
+    box-shadow: 0px,0px,3px,0px, #989595;
+    border-radius: 6px;
+}
+
+header,footer{
+    padding-bottom: 60px;
+}
+
+header{
+    flex-basis: 100%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+main{
+    flex-grow: 3;
+}
+
+main,
+aside{
+    padding-bottom: 250px;
+}
+
+footer{
+    flex-basis: 100%;
+    margin-top: 15px ;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+aside{
+    flex-grow: 1;
+    margin-left: 15px;
+}
