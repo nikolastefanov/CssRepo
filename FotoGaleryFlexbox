@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery - Flexbox</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <section class="gallery">
+
+        <ul>
+            <li>
+                <img src="./images/picture1.jpg"/>
+            </li>
+            <li>
+                <img src="./images/picture2.jpg"/>
+            </li>
+            <li>
+                <img src="./images/picture3.jpg"/>
+            </li>
+            <li>
+                <img src="./images/picture4.jpg"/>
+            </li>
+            <li>
+                <img src="./images/picture5.jpg"/>
+            </li>
+            <li>
+                <img src="./images/picture6.jpg"/>
+            </li>
+            <li>
+                <img src="./images/picture7.jpg"/>
+            </li>
+            <li>
+                <img src="./images/picture8.jpg"/>
+            </li>
+            <li>
+                <img src="./images/picture9.jpg"/>
+            </li>
+        </ul>
+    </section>
+    
+</body>
+</html>
+
+
+
+body{
+    background: #EEEEEE ;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+ul,
+li{
+    display: flex;
+}
+
+ul{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 60px 10px;
+}
+
+li{
+    background: white;
+    border: 5px solid black;
+    padding: 5px;
+    margin: 20px ;
+    box-shadow: 0px 0px 10px black;
+}
+
+li img{
+    object-fit: contain;
+}
