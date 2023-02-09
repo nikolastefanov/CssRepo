@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Forms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main>
+        <h3>
+            Login
+        </h3>
+
+        <form>
+
+            <article class="form-row">
+                <span class="label-text">
+                    Username
+                </span>
+                <label for="username">
+                    <i class="fas fa-user"></i>
+                    <input id="username" type="text/>"
+                </label>
+            </article>
+
+            <article class="form-row">
+                <span class="label-password">
+                    Password
+                </span>
+                <label for="password">
+                    <i class="fas fa-key"></i>
+                    <input id="password" type="password"/>
+                </label>
+
+                <label for="login">
+                    <input type="submit" class="btn" id="login" value="login">
+                </label>
+            </article>
+        </form>
+    </main>
+    
+</body>
+</html>
+
+
+
+
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+body{
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+h1{
+    box-shadow: 0px 0px 3px grey;
+}
+
+form{
+    background: #F8F8F8;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-shadow: 0px 0px 3px grey;
+}
+
+main{
+    max-width: 400px;
+    margin: 100px auto;
+    position: relative;
+}
+
+h3{
+    background:#F8F8F8; 
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 12px;
+    font-weight: 400px;
+    position: absolute;
+    top: 43px;
+    min-width: 15%;
+    padding-right: 80px;
+}
+
+label{
+    width: 100%;
+    position: relative;
+}
+
+.lebel-text{
+    display:block;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.form-row{
+    display: flex;
+    margin: 15px 0px;
+    align-items: center;
+}
+
+input{
+    border: 1px solid greenyellow;
+    border-radius: 4px;
+    padding: 6px 10px 6px 30px;
+    width: 100%;
+}
+
+label i{
+    position: absolute;
+    top: 7px;
+    left: 8px;
+}
+
+.btn{
+    background-color: #2d2d2d;
+    color: white;
+    font-weight: bold;
+    width: fit-content;
+    padding: 9px 15px;
+    margin-top: 300px;
+}
+
+
+
+
