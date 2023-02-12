@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог статии</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<main>
+    <h1 class="page-title">
+        Блог Статии
+    </h1>
+
+
+    <section class="blog-articles">
+
+       <article>
+
+        <article class="img-wrapper">
+            <img src="./images/article-img.png" alt="">
+        </article>
+        <article class="content">
+            <h3 class="content-title">
+                Софтуни Кидс по време на извънредно положение - Как ...
+            </h3>
+        </article>
+
+        <article class="content-info">
+
+            <p class="content-info-calendar">
+
+                <img src="./images/calendar.svg" alt="">
+                08 януари 2019
+            </p>
+            <p>
+                <img src="./images/time.svg" alt="">
+                3 минути
+            </p>
+
+        </article>
+
+        <p class="content-text">
+            Преподавателите на СофтУни Кидс разказват за промените, настъпили вследтвие на извънредното положение.
+        </p>
+
+        <button class="btn">
+            Прочети статията
+
+            <i class="fas fa-vhevron-right"></i>
+        </button>
+       </article>
+
+       <article>
+        <article class="img-wrapper">
+            <img src="./images/article-img.png" alt="">
+        </article>
+        <article class="content">
+            <h3 class="content-title">
+                Софтуни Кидс по време на извънредно положение - Как ...
+            </h3>
+        </article>
+
+        <article class="content-info">
+
+            <p class="content-info-calendar">
+
+          <img src="./images/calendar.svg" alt="">
+                08 януари 2019
+            </p>
+            <p>
+          <img src="./images/time.svg" alt="">
+                3 минути
+            </p>
+
+        </article>
+
+        <p class="content-text">
+            Преподавателите на СофтУни Кидс разказват за промените, настъпили вследтвие на извънредното положение.
+        </p>
+
+        <button class="btn">
+            Прочети статията
+
+            <i class="fas fa-vhevron-right"></i>
+        </button>
+       </article>
+
+       <article>
+
+        <article class="img-wrapper">
+            <img src="./images/article-img.png" alt="">
+        </article>
+        <article class="content">
+            <h3 class="content-title">
+                Софтуни Кидс по време на извънредно положение - Как ...
+            </h3>
+        </article>
+
+        <article class="content-info">
+
+            <p class="content-info-calendar">
+
+                <img src="./images/calendar.svg" alt="">
+                08 януари 2019
+            </p>
+            <p>
+                <img src="./images/time.svg" alt="">
+                3 минути
+            </p>
+
+        </article>
+
+        <p class="content-text">
+            Преподавателите на СофтУни Кидс разказват за промените, настъпили вследтвие на извънредното положение.
+        </p>
+
+        <button class="btn">
+            Прочети статията
+
+            <i class="fas fa-vhevron-right"></i>
+        </button>
+    </article>
+
+    <article>
+
+        <article class="img-wrapper">
+            <img src="./images/article-img.png" alt="">
+        </article>
+        <article class="content">
+            <h3 class="content-title">
+                Софтуни Кидс по време на извънредно положение - Как ...
+            </h3>
+        </article>
+
+        <article class="content-info">
+
+            <p class="content-info-calendar">
+
+                <img src="./images/calendar.svg" alt="">
+                08 януари 2019
+            </p>
+            <p>
+                <img src="./images/time.svg" alt="">
+                3 минути
+            </p>
+
+        </article>
+
+        <p class="content-text">
+            Преподавателите на СофтУни Кидс разказват за промените, настъпили вследтвие на извънредното положение.
+        </p>
+
+        
+
+        <button class="btn">
+            Прочети статията
+
+            <i class="fas fa-vhevron-right"></i>
+        </button>
+    
+    </article>
+    </section>
+</main>
+
+    <button class="read-more">
+        всички статии
+    </button>
+
+
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+main{
+   background: #47bafe;
+   color: white;
+   min-height: 100vh;
+   padding: 100px;
+   display: flex;
+   flex-direction: column;
+}
+
+
+
+.blog-articles{
+    display: flex;
+    align-items: center;
+}
+
+.blog-articles>article{
+    background-color: white;
+    margin: 15px;
+    box-shadow: 0px 0px 3px 0px #615757;
+    border-radius: 6px;
+}
+
+.img-wrapper img{
+    width: 100%;
+    border-top-left-radius:6px ;
+    border-top-right-radius: 6px;
+    object-fit: cover;
+}
+
+.content{
+    padding: 10px;
+}
+
+.content-title{
+    color: #ff8c00;
+    margin-top: 0px;
+}
+
+.content-info{
+    color: gray;
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+}
+
+.content-info-calendar{
+    margin-right: 15px;
+}
+
+.content-info p{
+    margin-top: 0px;
+}
+
+.content-info p img{
+    margin-right: 6px;
+}
+
+.content-text{
+    color: gray;
+}
+
+
+
+
+.btn{
+    color: #ff8c00;
+    border: none;
+    background: transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+}
