@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoftUni Kids Trainers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    
+<header>
+    <nav class="nav">
+        <article class="nav-logo">
+           <img src="./images/android-chrome-192x192.png" >          
+        </article>
+       <ul class="nav-list-items">
+           <li class="nav-list-item">
+               <a href="#">ОБУЧЕНИЯ</a>
+           </li>
+           <li class="nav-list-item">
+            <a href="#">СЪБИТИЯ</a>
+        </li>
+        <li class="nav-list-item">
+            <a href="#">ПРЕПОДАВАТЕЛИ</a>
+        </li>
+        <li class="nav-list-item">
+            <a href="#">БЛОГ</a>
+        </li>
+        <li class="nav-list-item">
+            <a href="#">КОНТАКТИ</a>
+        </li>
+       </ul>
+    </nav>
+
+    <section class="header-trainers">
+        <h1 class="header-trainers-title">
+            Преподаватели
+        </h1>
+
+        <p class="header-trainers-text">
+            Високото качество на обучение в СофтУни е гарантирано от внимателно подбран преподавателски състав. Вярваме, че всяко дете заслужава обучители, които да го подкрепят и мотивират! Екипът ни се състои от професионалисти в сферата на програмирането, специалисти в работата с деца и мотивирани ментори.
+        </p>
+    </section>
+</header>
+
+<main>
+
+    <section class="main-trainers">
+        <article class="main-trainer">
+            <article class="main-trainer-img">
+                <img src="./images/VqraBogateva.jpg" alt="">
+            </article>
+            <article class="main-trainer-content">
+                <h4 class="main-trainer-content-title">
+                    Вяра Богатева
+                </h4>
+               <p class="main-trainer-content-job">
+                Образователен Директор
+               </p>
+               <p class="main-trainer-content-text">
+                Д-р Вяра Богатева е Образователен Директор на SoftUni Kids. Тя е с докторска степен в катедра по предучилищно образование на СУ „Св. Климент Охридски” и е завършила специален изследователски курс в докторантската програма на Института по образованието - Университет в Лондон. Преподавател над 3 години в Софийския университет в областта на теорията и технологиите на семейното образование. Завършила е магистърска степен по предучилищна и начална училищна педагогика и бакалавърска степен по специална педагогика. Вяра Богатева е опитен учител с 10 години работа в областта на педагогиката, половината от които като мениджър на Интернационални институции.
+               </p>
+            </article>
+        </article>
+        <article class="main-trainer">
+            <article class="main-trainer-img">
+                <img src="./images/VladimirNikolov.png" alt="">
+            </article>
+            <article class="main-trainer-content">
+                <h4 class="main-trainer-content-title">
+                    Владимир Николов
+                </h4>
+               <p class="main-trainer-content-job">
+                Ръководител
+               </p>
+               <p class="main-trainer-content-text">
+                Владимир Николов е ръководител на екип и преподавател в SoftUni Kids. По образование е културен антрополог, а по професия начален учител и педагог. Неговият опит за работа с деца и юноши започва от 2015 година до момента. Работил е в различни организации от неправителствения сектор и държавни училища, като винаги за него цел е било иновативната образователната промяна и даването на качествено и достъпно образование, както на децата, така и на хората работещи с тях. Именно тази мотивация и опит го прави част от инициативата SoftUni Kids, където вижда възможност да допринесе за подготовката на новото поколение на България за предизвикателствата на 21-ви век.
+               </p>
+            </article>
+        </article>
+    </section>
+
+    <section class="all-trainers">
+
+       <article class="all-trainers-trainer">
+        <article class="main-trainer-img">
+           <img src="./images/ElenaStamenova.jpg" alt="">
+        </article>
+        <article class="all-trainers-content">
+            <h4 class="main-trainer-content-title">
+                Елена Стаменова
+            </h4>
+            <p class="main-trainer-content-job">
+                Преподавател
+            </p>
+        </article>
+    </article>
+ 
+
+       <article class="all-trainers-trainer">
+        <article class="main-trainer-img">
+           <img src="./images/SimeonSheitanov.jpg" alt="">
+        </article>
+        <article class="all-trainers-content">
+            <h4 class="main-trainer-content-title">
+                Симеон Шейтанов
+            </h4>
+            <p class="main-trainer-content-job">
+                Преподавател
+            </p>
+        </article>
+ </article>
+
+ <article class="all-trainers-trainer">
+    <article class="main-trainer-img">
+             <img src="./images/NadyaPetrova.jpg" alt="">
+    </article>
+    <article class="all-trainers-content">
+        <h4 class="main-trainer-content-title">
+            Надя Петрова
+
+        </h4>
+        <p class="main-trainer-content-job">
+            Преподавател
+        </p>
+    </article>
+</article>
+<article class="all-trainers-trainer">
+    <article class="main-trainer-img">
+          <img src="./images/ElenaBarutchieva.jpg" alt="">
+    </article>
+    <article class="all-trainers-content">
+        <h4 class="main-trainer-content-title">
+            Елена Барутчиева
+        </h4>
+        <p class="main-trainer-content-job">
+            Преподавател
+        </p>
+    </article>
+</article>
+    </section>
+
+    <section class="kids-team">
+
+        <h1 class="kids-team-title">
+            Станете част от екипа на SoftUni Kids
+        </h1>
+        <p class="kids-team-subtitle">
+            Ако сте позитивна и енергична личност и искате да станете част от нашия екип, попълнете формата долу и ние ще се свържем с вас.
+        </p>
+
+        <form class="kids-team-form">
+
+            <input type="text" placeholder="Име">
+            <input type="email" placeholder="Имейл">
+            <input type="number" placeholder="Телефон">
+            <input class="submit-btn" type="submit" placeholder="Изпрати">
+
+        </form>
+    </section>
+
+</main>
+       
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+.nav{
+    background: yellowgreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 0px;
+  margin: 0;
+  max-height: 55px;
+}
+
+.nav-logo{
+    max-width: 100px;
+}
+
+.nav-logo img{
+
+    max-width: 100%;
+    margin-left: 100px;
+   
+}
+
+.nav-list-items{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0px 120px;
+    padding: 50px;
+    
+
+}
+
+.nav-list-item a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.header-trainers{
+    background:#ffb200;
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+}
+
+.header-trainers-text{
+    max-width: 40%;
+    margin: 10px auto;
+}
+.header-trainers-title{
+    font-size: 30px; 
+}
+
+.main-trainers{
+    padding: 50px 80px;
+    display: flex;
+    align-items: center;
+}
+
+.main-trainer{
+    display: flex;
+    align-items: flex-start;
+}
+
+.main-trainer-img img{
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid #00C1ad;
+}
+
+.main-trainer-img{
+    border: 0px solid #00c1ad;
+    border-radius: 50%;
+    margin-right: 30px;
+    min-width: 183px;
+
+}
+
+.main-trainer-content-title{
+color: #00C1ad;
+margin-bottom: 10px;
+}
+
+.main-trainer-content-job{
+color: lightgrey;
+margin-bottom: 10px;
+font-size: 13px;
+}
+
+.main-trainer-content-text{
+    color:gray;
+    line-height: 20px;
+}
+
+.all-trainers{
+    padding: 100px 80px 40px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.all-trainers .main-trainer-img img{
+    object-fit: cover;
+    width: 190px;
+    height: 190px;
+    
+
+}
+
+.all-trainers-trainer{
+    margin: 0px 15px;
+}
+
+.all-trainers-contyent{
+    margin-top: 20px;
+}
+
+.kids-team{
+    background:#47BAFE;
+    padding: 100px 200px;
+    text-align: center;
+    color: white;
+}
+
+.kids-team-title{
+    font-size: 30px;
+}
+
+.kids-team-subtitle{
+    max-width: 50%;
+    margin: 0 auto 30px auto;
+}
+
+.kids-team-form input{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    background: transparent;
+}
+
+.kids-team-form input::placeholder{
+    color: white;
+}
+
+.kids-team-form .submit-btn{
+    background: #ff8b00;
+    color: white;
+   border-radius: 20px;
+   margin-left: 30px;
+   padding: 12px 26px;
+   box-shadow: 0px 0px 1px 1px grey;
+   text-transform: uppercase;
+   border: none;
+}
+
